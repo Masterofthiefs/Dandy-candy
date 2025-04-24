@@ -17468,7 +17468,7 @@ local function C_1f4()
 
 			while God_mode["god_mode"]:get() do
 				if LPGettingChased() then
-					CHH(10) -- 🔹 Aumenta altura si está siendo perseguido
+					CHH(4.5) -- 🔹 Aumenta altura si está siendo perseguido
 				else
 					CHH(3) -- 🔹 Altura normal si no hay peligro
 				end
